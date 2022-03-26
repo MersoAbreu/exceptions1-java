@@ -50,7 +50,7 @@ public class Reservation {
 	public void updateDates(Date dataEntrada, Date dataSaida) {
 		this.entrada = dataEntrada;
 		this.saida = dataSaida;
-		
+		this.duracao();
 		
 	}
 	
